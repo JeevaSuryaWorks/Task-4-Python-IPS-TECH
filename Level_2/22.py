@@ -1,0 +1,7 @@
+"""
+Question: Write a program to get a number from the user and print the total number of two-digit odd numbers in the number.
+Test case:
+Input: 12345678 -> Output: 3
+Input: 987531 -> Output: 4
+"""
+
