@@ -8,4 +8,6 @@ Output:
 7
 9
 """
-
+print("Output:")
+for i in range(1, 10, 2):
+    print(i)

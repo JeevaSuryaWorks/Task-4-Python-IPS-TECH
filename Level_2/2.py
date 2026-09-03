@@ -8,6 +8,7 @@ Output:
 2
 1
 """
-
-for i in range(5, 0, -1):
+i = 5
+while i >= 1:
     print(i)
+    i -= 1

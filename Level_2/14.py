@@ -5,4 +5,12 @@ Input: 123456 -> Output: 623451
 Input: 76895439 -> Output: 96895437
 Input: 675 -> Output: 576
 """
+number = int(input("Input: "))
 
+number_str = str(number)
+
+if len(number_str) > 1:
+    result = number_str[-1] + number_str[1:-1] + number_str[0]
+else:
+    result = number_str
+print("Output:", result)
