@@ -4,3 +4,8 @@ Test case:
 Input: 12345678912345 -> Output: 54321987654321
 """
 
+js = input("Enter a number up to 50 digits: ")
+def reverse_number(num_str):
+    return num_str[::-1]
+
+print("Output:", reverse_number(js))

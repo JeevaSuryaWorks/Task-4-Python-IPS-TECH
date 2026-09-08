@@ -4,3 +4,5 @@ Test case:
 Input: "12345" -> Output: 12345
 """
 
+js=input("Enter String: ")
+print(int(js))

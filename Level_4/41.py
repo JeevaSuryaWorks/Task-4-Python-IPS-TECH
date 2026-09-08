@@ -10,3 +10,9 @@ Output:
 5
 """
 
+js = int(input("Enter an integer: "))
+def print_digits(num):
+    for digit in str(num):
+        print(digit)
+
+print_digits(js)

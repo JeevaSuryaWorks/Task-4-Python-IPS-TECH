@@ -3,4 +3,9 @@ Question: Print the total number of non-decreasing numbers from 1000 to 9999. A 
 Test case:
 Output: 495
 """
-
+js = 0
+for i in range(1000, 10000):
+    s = str(i)
+    if s[0] <= s[1] <= s[2] <= s[3]:
+        js += 1
+print("Output:", js)

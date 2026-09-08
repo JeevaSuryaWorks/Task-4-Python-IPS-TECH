@@ -5,3 +5,7 @@ Input: 65 -> Output: A
 Input: 97 -> Output: a
 """
 
+JS = int(input("Enter an ASCII number: "))
+def ascii_to_char(ascii_num):
+    return chr(ascii_num)
+print("Output:", ascii_to_char(JS))

@@ -4,4 +4,10 @@ Test case:
 Input: 6 12 3 15 7
 Output: 7 2 4 5 7
 """
-
+js = input("Enter the integer array (space-separated): ")
+arr = [int(x) for x in js.split()]
+for i in range(len(arr) - 1, 0, -1):
+    if arr[i] >= 10:
+        arr[i] %= 10
+        arr[i - 1] += 1
+print("Output:", " ".join(map(str, arr)))
