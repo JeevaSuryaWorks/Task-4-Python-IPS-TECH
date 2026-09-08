@@ -5,3 +5,11 @@ Input: 12, 18 -> Output: 6
 Input: 24, 36 -> Output: 12
 """
 
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+s1 = int(input("Enter first number: "))
+s2 = int(input("Enter second number: "))
+print("Output:", gcd(s1, s2))

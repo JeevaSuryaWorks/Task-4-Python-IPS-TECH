@@ -5,3 +5,8 @@ Input: 45 -> Output: 40
 Input: 56789 -> Output: 56784
 """
 
+js=int(input("Enter a number: "))
+def subtract_five(num):
+    return num - 5
+
+print("Output:", subtract_five(js))

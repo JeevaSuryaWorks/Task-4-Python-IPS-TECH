@@ -5,3 +5,8 @@ Input: 45 -> Output: 47
 Input: 56789 -> Output: 56791
 """
 
+js=int(input("Enter a number: "))
+def add_two(num):
+    return num + 2
+
+print("Output:", add_two(js))

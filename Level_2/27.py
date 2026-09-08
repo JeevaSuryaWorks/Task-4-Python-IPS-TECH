@@ -4,3 +4,8 @@ Test case:
 Output: 4995
 """
 
+js = 0
+for i in range(100000):
+    if sum(int(digit) for digit in str(i)) == 14:
+        js += 1
+print("Output:", js)

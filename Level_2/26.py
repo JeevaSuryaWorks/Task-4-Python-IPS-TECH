@@ -4,3 +4,9 @@ Test case:
 Output: 9954
 """
 
+js = 9999
+while js > 0:
+    if js % 7 == 0 and js % 9 == 0:
+        print(js)
+        break
+    js -= 1
